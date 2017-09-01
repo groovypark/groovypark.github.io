@@ -3,4 +3,8 @@ title: about
 layout: page
 ---
 
-Building...
+# 박수빈 (Park SooVin)
+
+- E-mail : soobin950@gmail.com
+- Github : [](https://github.com/groovypark/)
+

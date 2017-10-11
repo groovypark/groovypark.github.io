@@ -10,14 +10,15 @@ tags: algorithm codeforce
 외국사이트인 [Codeforces](http://codeforces.com/)에서 #439번째 대회를 참가하였다.
 문제는 총 5문제로,  2시간동안 문제를 푸는 것이다. A부터 E까지의 문제 중 B문제를 풀었다.
 
-## 문제 - B. The Eternal Immortality
 
 <center>
+## 문제 - B. The Eternal Immortality
+
 time limit per test1 second<br/>
 memory limit per test256 megabytes<br/>
 inputstandard input<br/>
 outputstandard output<br/>
-</center>
+</center><br/>
 
 Even if the world is full of counterfeits, I still regard it as wonderful.<br/>
 
@@ -28,7 +29,6 @@ The phoenix has a rather long lifespan, and reincarnates itself once every a! ye
 Koyomi doesn't care much about this, but before he gets into another mess with oddities, he is interested in the number of times the phoenix will reincarnate in a timespan of b! years, that is, . Note that when b ≥ a this value is always integer.<br/>
 
 As the answer can be quite large, it would be enough for Koyomi just to know the last digit of the answer in decimal representation. And you're here to provide Koyomi with this knowledge.<br/>
-</p>
 
 ### Input
 

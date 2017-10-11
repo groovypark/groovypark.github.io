@@ -11,7 +11,7 @@ tags: algorithm codeforce
 문제는 총 5문제로,  2시간동안 문제를 푸는 것이다. A부터 E까지의 문제 중 B문제를 풀었다.
 
 
-## 문제 - B. The Eternal Immortality{: .text-center }
+## 문제 - B. The Eternal Immortality
 
 <center>
 time limit per test1 second<br/>
@@ -21,13 +21,9 @@ outputstandard output<br/>
 </center><br/>
 
 Even if the world is full of counterfeits, I still regard it as wonderful.<br/>
-
 Pile up herbs and incense, and arise again from the flames and ashes of its predecessor — as is known to many, the phoenix does it like this.<br/>
-
 The phoenix has a rather long lifespan, and reincarnates itself once every a! years. Here a! denotes the factorial of integer a, that is, a! = 1 × 2 × ... × a. Specifically, 0! = 1.<br/>
-
 Koyomi doesn't care much about this, but before he gets into another mess with oddities, he is interested in the number of times the phoenix will reincarnate in a timespan of b! years, that is, . Note that when b ≥ a this value is always integer.<br/>
-
 As the answer can be quite large, it would be enough for Koyomi just to know the last digit of the answer in decimal representation. And you're here to provide Koyomi with this knowledge.<br/>
 
 ### Input

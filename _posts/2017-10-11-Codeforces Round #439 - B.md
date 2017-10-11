@@ -11,9 +11,9 @@ tags: algorithm codeforce
 문제는 총 5문제로,  2시간동안 문제를 푸는 것이다. A부터 E까지의 문제 중 B문제를 풀었다.
 
 
-<center>
-## 문제 - B. The Eternal Immortality
+## 문제 - B. The Eternal Immortality{: .text-center }
 
+<center>
 time limit per test1 second<br/>
 memory limit per test256 megabytes<br/>
 inputstandard input<br/>

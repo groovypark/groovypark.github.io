@@ -5,9 +5,9 @@ categories:
 tags: algorithm codeforce
 ---
 
-# Codeforces Round #439 - B (The Eternal Immortality)
-
 ![codeforces](http://st.codeforces.com/s/86906/images/codeforces-telegram-square.png)
+
+# Codeforces Round #439 - B (The Eternal Immortality)
 
 외국사이트인 [Codeforces](http://codeforces.com/)에서 #439번째 대회를 참가하였다.
 문제는 총 5문제로,  2시간동안 문제를 푸는 것이다. A부터 E까지의 문제 중 B문제를 풀었다.

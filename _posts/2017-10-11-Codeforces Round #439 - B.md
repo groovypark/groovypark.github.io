@@ -5,6 +5,8 @@ categories:
 tags: algorithm codeforce
 ---
 
+![codeforces](http://st.codeforces.com/s/86906/images/codeforces-telegram-square.png)
+
 # Codeforces Round #439 - B (The Eternal Immortality)
 
 외국사이트인 [Codeforces](http://codeforces.com/)에서 #439번째 대회를 참가하였다.

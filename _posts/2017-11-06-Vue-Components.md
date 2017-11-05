@@ -40,7 +40,6 @@ tags: Vue Frontend
         })
     ```
 
-[Vue Components](https://gist.github.com/groovypark/b642e5dc8c17d85e660baea34627eccb.js)
 <script src="https://gist.github.com/groovypark/b642e5dc8c17d85e660baea34627eccb.js"></script>
 
 Vue.component 를 쓰게되면 컴포넌트를 전역으로 등록하게 된다. my-component안의 내용은 template에서 html요소로 구성된다. 그리고 새로 Vue 인스턴스를 만들게 되면, 컴포넌트가 등록되었기 때문에 `<my-component></my-component>` 부분이 template 내용으로 치환이 되면서 `<div>A global component!</div>`로 바뀌게 될 것이다.<br/>
@@ -48,7 +47,7 @@ Vue.component 를 쓰게되면 컴포넌트를 전역으로 등록하게 된다.
 
 ## 전역 & 지역 컴포넌트 차이점
 
-글로벌 컴포넌트는 Vue 접근자에 바로 등록되는 것이기 때문에 인스턴스를 생성할 때마다 재활용 할 수 있다. 하지만 로컬 컴포넌트는 해당 인스턴스에만 사용할 수 있다. 따라서 로컬 컴포넌트는 인스턴스를 등록할 때 app2를 등록하지 않게 되면 app에서는 컴포넌트 2개가 모두 보이지만, app2에서는 'my-component'만 뜨고 'my-local-component'는 뜨지 않게 된다.</br>
+글로벌 컴포넌트는 Vue 접근자에 바로 등록되는 것이기 때문에 인스턴스를 생성할 때마다 재활용 할 수 있다. 하지만 로컬 컴포넌트는 해당 인스턴스에만 사용할 수 있다. 따라서 로컬 컴포넌트는 인스턴스를 등록할 때 app2를 등록하지 않게 되면 app에서는 컴포넌트 2개가 모두 보이지만, app2에서는 'my-component'만 뜨고 'my-local-component'는 뜨지 않게 된다.<br/>
 app과 app2 모두 보이게 하기 위해서는 다음과 같이 app2를 추가하여 인스턴스를 2개 등록하면 된다.
 
 ```javascript
@@ -60,5 +59,3 @@ new Vue({
         }
       })
 ```
-
-이것이 바로 글로벌 컴포넌트와 로컬 컴포넌트의 차이점이다.

@@ -5,7 +5,7 @@ layout: page
 
 
 # Profile
-### 박수빈 (Park SooVin) ![](../assets/images/profile.jpg)
+### 박수빈 (Park SooVin) ![](../assets/images/profile.png)
 * Email: soobin950@gmail.com
 * Blog: https://groovypark.github.io
 * GitHub: https://github.com/groovypark

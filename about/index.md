@@ -49,5 +49,5 @@ layout: page
 
 # Skills
 
-Proficient: HTML5, CSS3, JavaScript
+Proficient: HTML5, CSS3, JavaScript<br/>
 Familiar: React, Vue, Java, Android

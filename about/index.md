@@ -3,12 +3,11 @@ title: about
 layout: page
 ---
 
-
 # Profile
 
 #### 박수빈 (Park SooVin)
 
-* Email : [soobin950@gmail.com](soobin950@gmail.com)
+* Email : soobin950@gmail.com
 * Blog : [https://groovypark.github.io](https://groovypark.github.io)
 * GitHub : [https://github.com/groovypark](https://github.com/groovypark)
 * Introduction : 프론트엔드 개발에서 다양한 경험을 하고 싶습니다. 유저와 가장 가까이 맞닿아 있고, 감성적인 측면이 강한 부분이라고 생각합니다. 최근에는 React.js와 Vue.js에 관심을 가지고 있습니다. 학교 외부에서도 다양한 프로젝트를 진행하고 싶어서 디자이너, 프로그래서 연합동아리인 디프만 동아리에서 활동하고 있습니다. 대학생 연합 해커톤인 유니톤에서 디프만 동아리 소속 웹 개발자로 해커톤에 참여하였고, 팀원들의 훌륭한 활약 덕분에 특별상을 수상하였습니다.

@@ -5,7 +5,7 @@ categories:
 tags: JavaScript CSS
 ---
 
-![CSS JavaScript](https://www.drupal.org/files/project-images/minify-css-javascript.png)
+![CSS JavaScript](https://s3.amazonaws.com/blog.psd2html.com/wp-content/uploads/2016/06/28095638/CSS-vs-JS-Animations.png)
 
 ## CSS
 

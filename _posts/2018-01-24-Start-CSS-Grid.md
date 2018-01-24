@@ -9,13 +9,16 @@ tags: CSS Frontend
 
 # Downloads
 
-동영상 강의 신청
+1. 동영상 강의 신청
+
 [CSS Grid — Learn all about CSS Grid with Wes Bos in this free video series!](https://cssgrid.io/)
 
-Firefox Developer 다운로드
+1. Firefox Developer 다운로드
+
 [Firefox Developer Edition](https://www.mozilla.org/ko/firefox/developer/?utm_campaign=cssgrid&utm_content=web&utm_source=wesbos)
 
-파일 다운로드
+1. 파일 다운로드
+
 [GitHub - wesbos/css-grid: Starter Files + Solutions to my CSSGrid.io Course](https://github.com/wesbos/css-grid)
 
 # emmet
@@ -57,6 +60,7 @@ Firefox Developer 다운로드
     --yellow: #ffc600;
     --black: #272727;
   }
+  
   p {
     color: var(--yellow);
     color: var(--black);

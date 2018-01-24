@@ -5,7 +5,7 @@ categories:
 tags: CSS Frontend
 ---
 
-https://cssgrid.io/images/GRID-social-share.png
+![css grid](https://cssgrid.io/images/GRID-social-share.png)
 
 # Downloads
 

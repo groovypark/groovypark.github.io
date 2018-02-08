@@ -7,7 +7,7 @@ tags: Vue Frontend
 
 ![vuejs](https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg)
 
-![Nested Routes vs Named View](Vue-routers.png)
+![Nested Routes vs Named View](../assets/images/Vue-routers.png)
 
 # Nested Routes
 특정 URL에서 1개의 컴포넌트에 여러 개의 하위 컴포넌트를 갖는 것

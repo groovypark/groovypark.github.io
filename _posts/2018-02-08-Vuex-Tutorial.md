@@ -22,10 +22,11 @@ Vuex 강의 말고도 많이 있다. 강추합니다 👍 👍
 * vue cli를 이용하여 templete 설치  
   `vue init webpack-simple vuex-playlist`
 * vuex-playlist 폴더로 이동한 뒤 npm 설치  
-  `npm install`
+  `npm install`  
+  `npm run dev` 를 하면 실행된다.
 * vuex 설치  
   `npm install vuex --save`
-* `...mapGetters`와 같은 es6문법 사용을 위한 설치  
+* `...mapGetters` 와 같은 es6문법 사용을 위한 설치  
   (나는 stage-3가 적혀있었다.)  
   `npm install -preset -stage-2 --save-dev`  
   .babelrc에 ["stage-2"]에 추가

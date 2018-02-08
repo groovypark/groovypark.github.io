@@ -12,7 +12,8 @@ tags: Vue Frontend
 [YouTube Vuex Tutorial 강의 링크](https://www.youtube.com/watch?v=BGAu__J4xoc)  
 
 **The Net Ninja** 이분 강의 정말 잘하시는 것 같다.  
-다른 Vuex 강의들은 보면서 어렵다고 느껴졌었는데 정말 짧고 쉽게 설명해서 좋았다. Vuex 강의 말고도 많이 있다. 강추합니다 👍 👍
+다른 Vuex 강의들은 보면서 어렵다고 느껴졌었는데 정말 짧고 쉽게 설명해서 좋았다.  
+Vuex 강의 말고도 많이 있다. 강추합니다 👍 👍
 
 [The Net Ninja 채널 링크](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
 
@@ -42,4 +43,6 @@ Branch에 강의 순서대로 올려져있다.
 
 ![vuex tutorial result screen](/assets/images/vuex-tutorial.png)
 
-Vuex에서 getters를 이용하여 계산된 새로운 객체를 생성한다. mutation을 이용하면 컴포넌트에서 methods를 직접 사용하지 않고 store에서 값을 변경수 있다. 또한 위의 사진과 같이 디버깅하기 좋다. actions는 비동기 작업을 할 수 있다. action으로 mutation에 대한 commit을 한다.
+Vuex에서 getters를 이용하여 계산된 새로운 객체를 생성한다.  
+mutation을 이용하면 컴포넌트에서 methods를 직접 사용하지 않고 store에서 값을 변경수 있다. 또한 위의 사진과 같이 디버깅하기 좋다.  
+actions는 비동기 작업을 할 수 있다. action으로 mutation에 대한 commit을 한다.

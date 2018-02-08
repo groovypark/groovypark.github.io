@@ -44,5 +44,6 @@ Branch에 강의 순서대로 올려져있다.
 ![vuex tutorial result screen](/assets/images/vuex-tutorial.png)
 
 Vuex에서 getters를 이용하여 계산된 새로운 객체를 생성한다.  
-mutation을 이용하면 컴포넌트에서 methods를 직접 사용하지 않고 store에서 값을 변경수 있다. 또한 위의 사진과 같이 디버깅하기 좋다.  
+mutation을 이용하면 컴포넌트에서 methods를 직접 사용하지 않고 store에서 값을 변경수 있다.  
+또한 위의 사진과 같이 디버깅하기 좋다.  
 actions는 비동기 작업을 할 수 있다. action으로 mutation에 대한 commit을 한다.

@@ -60,4 +60,4 @@ Dropzone.js ([http://www.dropzonejs.com/](http://www.dropzonejs.com/))
 
 * [Morphext - jQuery Text Rotator Powered by Animate.css](http://morphext.fyianlai.com/)
 
-* [pagePiling.js plugin | Create a stack of scrolling pages](https://alvarotrigo.com/pagePiling/)
+* [pagePiling.js plugin - Create a stack of scrolling pages](https://alvarotrigo.com/pagePiling/)

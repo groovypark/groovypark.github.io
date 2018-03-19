@@ -26,7 +26,7 @@ layout: page
 ### 핸디즈 프론트엔드 인턴 (2018.01~2018.02)
 
 * 플로우 차트 설계
-* 핸디즈 메인 페이지 개발 [https://stay.handys.co.kr/](https://stay.handys.co.kr/)
+* 핸디즈 메인 랜딩 페이지 개발 [https://stay.handys.co.kr/](https://stay.handys.co.kr/)
 * 코드 리뷰
 * 구글 애널리틱스를 이용하여 실시간 이벤트 확인
 
@@ -41,7 +41,7 @@ layout: page
 * KOK-프로귀찮러를 위한 지출관리 시스템 - Microsoft Cognitive Service를 사용하여 사진을 찍으면 해당 사진의 키워드를 입력해주는 가계부 웹앱
 * Vue.js를 활용하여 카메라 접근, 로딩화면, 사진추가 부분 역할 담당
 * Frontend와 Backend 연결, 디바이스의 카메라 접근 해결 못함
-* 발표자료 https://www.slideshare.net/JunyoungJung8/unithon-5th-kok
+* 발표자료 [https://www.slideshare.net/JunyoungJung8/unithon-5th-kok](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok)
 
 ### 디프만 (2017.03~)
 

@@ -7,7 +7,11 @@ tags: Python
 
 ![Python Tutoral](https://www.freelancinggig.com/blog/wp-content/uploads/2017/12/Python-Tutorial.png)
 
-# Python
+# Python 특징
+
+- 프로그래머 친화적 언어 - 사용하기 쉽다.
+- 표현적 언어 - 코드를 더 쉽게 이해할 수 있다.
+- 인터프리트 언어 - 한줄씩 실행하여 디버깅하는 것이 쉽다.
 
 ## String
 

@@ -13,6 +13,13 @@ tags: Python
 - 표현적 언어 - 코드를 더 쉽게 이해할 수 있다.
 - 인터프리트 언어 - 한줄씩 실행하여 디버깅하는 것이 쉽다.
 
+## jupyter notebook 
+
+주피터 노트북 (Jupyter Notebook)은 머신러닝과 데이터 사이언스에서 많이 사용되는 툴입니다. 웹 브라우저에서 파이썬 코드를 라인 별로 실행하고 마크다운을 지원한다.  
+
+설치 `pip install Jupyter`  
+실행 `jupyter notebook`
+
 ## String
 
 길이 알아보기, 원하는 길이만큼 출력하기.
@@ -31,6 +38,25 @@ string[6:]
 ```python
 string = "Hello, World, Soovin, Jeemyeong"
 string.split(", ") # ['Hello', 'World', 'Soovin', 'Jeemyeong']
+```
+
+ %s 포맷 코드. 문자열 포맷 코드는 어떤 형태의 값이든 변환해 넣을 수 있다.
+
+```python
+"I have %s apples" % 3 # 'I have 3 apples'
+"rate is %s" % 3.234 # 'rate is 3.234'
+```
+
+## String 숫자, 알파벳 판별
+
+isdigit() : 숫자로만 구성되있는지 확인해주는 함수  
+isalpha() : 문자로만 구성되있는지 확인해주는 함수
+
+```python
+    str = '123'
+    str.isdigit() # True
+    str = 'abc'
+    str.isalpha() # True
 ```
 
 ## List
@@ -283,4 +309,31 @@ math.sqrt(9) # 3.0
 
 3 == 3.0 # True
 int(3.9) # 3
+```
+
+## pass, continue 차이점
+
+pass는 그냥 아무것도 하지 않는다의 의미로 쓴다. 즉 수행할 코드가 없음을 명시적으로 표현할 뿐이다. continue는 강제로 다음 루프를 돌리게 한다.
+
+```python
+for i in [1,2,3]:
+    print i
+    if i:
+        pass
+        print "pass"
+# 1
+# pass
+# 2
+# pass
+# 3
+# pass
+
+for i in [1,2,3]:
+    print i
+    if i:
+        continue
+        print "continue"
+# 1
+# 2
+# 3
 ```

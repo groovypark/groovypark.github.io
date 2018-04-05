@@ -15,7 +15,7 @@ tags: Python
 
 ## jupyter notebook 
 
-주피터 노트북 (Jupyter Notebook)은 머신러닝과 데이터 사이언스에서 많이 사용되는 툴입니다. 웹 브라우저에서 파이썬 코드를 라인 별로 실행하고 마크다운을 지원한다.  
+주피터 노트북 (Jupyter Notebook)은 머신러닝과 데이터 사이언스에서 많이 사용되는 툴이다. 웹 브라우저에서 파이썬 코드를 라인 별로 실행하고 마크다운을 지원한다.  
 
 설치 `pip install Jupyter`  
 실행 `jupyter notebook`

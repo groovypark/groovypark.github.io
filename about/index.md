@@ -26,7 +26,7 @@ layout: page
 ### 핸디즈 프론트엔드 인턴 (2018.01 ~ 2018.02)
 
 * 플로우 차트 설계
-* 핸디즈 메인 랜딩 페이지 개발 [https://stay.handys.co.kr/](https://stay.handys.co.kr/)
+* 핸디즈 메인 페이지 개발 [https://stay.handys.co.kr/](https://stay.handys.co.kr/)
 * 코드 리뷰
 * 구글 애널리틱스를 이용하여 실시간 이벤트 확인
 

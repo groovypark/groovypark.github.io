@@ -48,3 +48,10 @@ Vuex에서 getters를 이용하여 계산된 새로운 객체를 생성한다.
 mutation을 이용하면 컴포넌트에서 methods를 직접 사용하지 않고 store에서 값을 변경수 있다.  
 또한 위의 사진과 같이 디버깅하기 좋다.  
 actions는 비동기 작업을 할 수 있다. action으로 mutation에 대한 commit을 한다.
+
+**다른 글**  
+[Vue.js](https://groovypark.github.io/2017/10/20/Vue.js-Instance/){: target="_blank" }  
+[Vue Components](https://groovypark.github.io/2017/11/06/Vue-Components/){: target="_blank" }  
+[Vue 컴포넌트 통신](https://groovypark.github.io/2017/11/07/Vue-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0/){: target="_blank" }  
+[Vue 라우터](https://groovypark.github.io/2017/11/09/Vue-%EB%9D%BC%EC%9A%B0%ED%84%B0/){: target="_blank" }  
+[Nested Routes vs Named View](https://groovypark.github.io/2018/01/22/Nested-Routes-vs-Named-View/){: target="_blank" }  

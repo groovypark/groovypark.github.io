@@ -33,3 +33,10 @@ tags: Vue Frontend
 },
 ```
 router-view에 설정한 ‘nestedHeader’라는 이름으로 AppHeader 컴포넌트가 불러와지고, default 값으로 Body를 주었으므로 Body태그로 컴포넌트가 띄워진다. 따라서 Named View는 name 속성을 지정해 주어서 그 이름에 맞게 바로 렌더링이 된다.
+
+**다른 글**  
+[Vue.js](https://groovypark.github.io/2017/10/20/Vue.js-Instance/){: target="_blank" }  
+[Vue Components](https://groovypark.github.io/2017/11/06/Vue-Components/){: target="_blank" }  
+[Vue 컴포넌트 통신](https://groovypark.github.io/2017/11/07/Vue-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0/){: target="_blank" }  
+[Vue 라우터](https://groovypark.github.io/2017/11/09/Vue-%EB%9D%BC%EC%9A%B0%ED%84%B0/){: target="_blank" }  
+[Vuex Tutorial](https://groovypark.github.io/2018/02/08/Vuex-Tutorial/){: target="_blank" }  

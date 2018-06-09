@@ -61,3 +61,10 @@ new Vue({
         }
       })
 ```
+
+**다른 글**  
+[Vue.js](https://groovypark.github.io/2017/10/20/Vue.js-Instance/){: target="_blank" }  
+[Vue 컴포넌트 통신](https://groovypark.github.io/2017/11/07/Vue-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0/){: target="_blank" }  
+[Vue 라우터](https://groovypark.github.io/2017/11/09/Vue-%EB%9D%BC%EC%9A%B0%ED%84%B0/){: target="_blank" }  
+[Nested Routes vs Named View](https://groovypark.github.io/2018/01/22/Nested-Routes-vs-Named-View/){: target="_blank" }  
+[Vuex Tutorial](https://groovypark.github.io/2018/02/08/Vuex-Tutorial/){: target="_blank" }  

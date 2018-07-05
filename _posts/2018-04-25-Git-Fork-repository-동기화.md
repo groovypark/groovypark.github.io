@@ -2,7 +2,7 @@
 title: Github에서 fork한 repository 최신으로 동기화하기
 description: 
 categories: 
-tags: Git
+tags: git
 ---
 
 ![Github](http://blog.weirdx.io/wp-content/uploads/2017/10/github.png)
@@ -70,4 +70,4 @@ $ git push origin master
 3. `git fetch upstream`
 4. `git checkout master`
 5. `git merge upstream/master`
-6. `git push organ master`
+6. `git push origin master`

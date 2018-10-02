@@ -145,16 +145,60 @@ a = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
 
 ## Set
 
-HashSet과 같은 자료형이다. 값 추가하기.
+중복을 허용하지 않는다.  
+순서가 없다(Unordered).
+a = {} 와 같이, 값이 없을경우에는 딕셔너리로 인식하게 된다.
 
 ```python
-set_obj = {3}
-set_obj.add(1)
-set_obj.add(1)
-set_obj.add(1)
-set_obj.add(2)
-set_obj # {1, 2, 3}
-# set_obj[3] = 4 # TypeError: 'set' object does not support item assignment
+s1 = set() # 값이 비어있는 집합 자료형
+s1 = [1, 2, 3]
+print(set(s1))   # {1, 2, 3}
+s2 = set("Hello")
+print(s2)   # {'H', 'o', 'e', 'l'}
+```
+
+### 인덱싱
+
+set 자료형에 저장된 값을 인덱싱으로 접근하려면 다음과 같이 리스트나 튜플로 변환한 후 해야 한다.
+
+```python
+s1 = set(s1)
+l1 = list(s1)
+print(l1)   # [1, 2, 3]
+print(l1[0])   # 1
+t1 = tuple(s1)
+print(t1)   # (1, 2, 3)
+print(t1[0])   # 1
+```
+
+### 집합
+
+set 자료형이 정말 유용하게 사용되는 경우는 다음과 같이 교집합, 합집합, 차집합을 구할 때이다.
+
+```python
+s1 = {1, 2, 3, 4, 5, 6}
+s2 = {4, 5, 6, 7, 8, 9}
+
+print('교집합', s1 & s2)   # {4, 5, 6}
+print('합집합', s1 | s2)   # {1, 2, 3, 4, 5, 6, 7, 8, 9}
+print('차집합', s1 - s2)   # {1, 2, 3}
+print('합집합-교집합', s1 ^ s2)   # {1, 2, 3, 7, 8, 9}
+```
+
+### 추가
+
+```python
+s1 = {1, 2, 3}
+s1.update([4, 5, 6])    # 여러 개 업데이트
+s1.add(4)   # 1개 추가
+print(s1)   # {1, 2, 3, 4, 5, 6}
+```
+
+### 제거
+
+```python
+s1.remove(2)
+print(s1)   # {1, 3, 4, 5, 6}
 ```
 
 ## If

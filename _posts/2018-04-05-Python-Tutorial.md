@@ -140,7 +140,7 @@ del dic[1] # {'Soovin': 'Jeemyeong'}
 ```python
 a = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
 'name' in a # True
-'email' in a #False
+'email' in a # False
 ```
 
 ## Set

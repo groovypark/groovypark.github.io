@@ -1,4 +1,11 @@
-# 자료구조 정리
+---
+title: 자료구조 정리
+description: 
+categories: 
+tags: CS
+---
+
+![자료구조](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gnyWTzgG_OzXuwizdNuOs5AsGhjnaBOIKPiccaoqmsqy2vTNpw)
 
 ## Array vs LinkedList
 
@@ -46,3 +53,6 @@
   마지막 레벨의 모든 노드가 자식노드를 2개를 가진 이진트리. 노드들은 왼쪽으로 채워져 있다.
   ![완전 이진 트리](https://mblogthumb-phinf.pstatic.net/20150928_235/yms9713_1443418651125F2jjR_PNG/%BD%BD%B6%F3%C0%CC%B5%E51.PNG?type=w2)
 
+
+---
+참고: [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner){:target="_blank"}

@@ -31,7 +31,7 @@ tags: Frontend, CS
 B+트리 구조. 인덱스는 ID사용.  
 Key-Value 쌍으로 저장하는 dictionary or map (Key : ID, Value : 글 데이터).  
 대규모 데이터 처리를 위해 비정규화를 택할 수 있다.  
-/참고 사이트 : [NAVER D2](https://d2.naver.com/helloworld/809802)/
+*참고 사이트 : [NAVER D2](https://d2.naver.com/helloworld/809802)*
 
 ### 트리구조에서 공통부모노드 찾기, 그 방법을 개선
 
@@ -107,7 +107,7 @@ Ajax는 자바스크립트를 이용해서 비동기적으로 데이터를 교�
 모든 컴포넌트 인스턴스에는 해당 watcher 인스턴스가 있으며, 이 인스턴스는 컴포넌트가 종속적으로 렌더링되는 동안 **수정**된 모든 속성을 기록함.  
 나중에 종속적인 setter가 트리거 되면 watcher에 알리고, 컴포넌트가 다시 렌더링됨.
 ![vue data rendering](https://kr.vuejs.org/images/data.png)
-/참고 사이트 : [반응형에 대해 깊이 알아보기 — Vue.js](https://kr.vuejs.org/v2/guide/reactivity.html)/
+*참고 사이트 : [반응형에 대해 깊이 알아보기 — Vue.js](https://kr.vuejs.org/v2/guide/reactivity.html)*
 
 ### css를 많이 받아오는데 빠르게 하기 위한 해결 방법
 Webpack 사용.
@@ -184,7 +184,7 @@ html, css, javascript 가 익숙한 형태로 따로 나누어져 있어서 편�
 * AI, 딥러닝 기반 맞춤형 콘텐츠와 서비스 증진
 * 빠른 UX 제공  
 쉬운 온/오프라인 결제 기술, 회원가입/로그인 과정 단순화 (지문인식, 얼굴인식)
-참고 사이트 : [2018 UX/UI 디자인 트렌드](https://brunch.co.kr/@usdlab/20)
+*참고 사이트 : [2018 UX/UI 디자인 트렌드](https://brunch.co.kr/@usdlab/20)*
 
 ### 반응형 웹을 할 때 주로 width값은 몇으로 설정
 

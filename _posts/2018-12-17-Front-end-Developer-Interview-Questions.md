@@ -42,6 +42,50 @@ Key-Value 쌍으로 저장하는 dictionary or map (Key : ID, Value : 글 데이
 
 ## 네트워크
 
+### HTTP / HTTPS
+
+HTTP는 웹브라우저와 서버간의 웹페이지 자원을 주고 받을 때 쓰는 통신 규약.  
+보안 상의 문제를 해결해 주는 프로토콜이 HTTPS.  
+하지만, 암호화하여 주고 받으면 서버에 과부화가 걸릴 수도 있음. 따라서 중요한 사이트만 HTTPS로 관리.
+
+SSL 인증서를 사용해서 암호화. 보안과 성능상의 이유로 두가지 암호화 기법을 혼용해서 사용.
+* 대칭키  
+  동일한 키로 암호화와 복호화를 같이 할 수 있는 방식.
+* 공개키
+  2개의 키를 가지고, 하나는 암호화 하나는 복호화 하는데 사용.  
+
+*참고 사이트 : [생활코딩 | HTTPS와 SSL인증서](https://opentutorials.org/course/228/4894)
+
+### Cookie, LocalStorage, SessionStorage
+
+* 쿠키(Cookie)  
+: 쿠키 과자처럼 부스러져서 브라우저에 흘린다고 쿠키라고 함. 하지만, 브라우저에 저장하기 때문에 보안 문제 발생. 그래서 중요한 정보들을 서버에 저장, 그 서버에 저장된 정보의 키만 브라우저에 쿠키로 남김. 이 쿠키를 세션쿠키라고 함. 세션쿠키는 브라우저가 꺼지고 나면 사라짐. 만료일 설정하면 그때까지 사용.
+
+* 웹스토리지(WebStorage)  
+: 쿠키의 단점을 보완해서 만든 기술. key-value 형태. 쿠키와 마찬가지로 클라이언트에 대한 정보 저장.  
+차이점은 서버에 클라이언트의 데이터를 저장하지 않는 것.
+
+  * 로컬스토리지(LocalStorage)  
+  : 웹스토리지의 두가지 종류 중 하나. 클라이언트에 대한 정보를 영구적으로 보관하는 것.
+
+  * 세션스토리지(SessionStorage)  
+  : 웹스토리지의 두가지 종류 중 하나. 세션이 종료되면(웹 브라우저를 닫을 경우) 클라이언트에 대한 정보를 삭제함.  
+
+* 세가지 비교  
+  * cookie  
+    장점 : 대부분의 브라우저에서 지원됨  
+    단점 : api가 한번 더 호출되므로 서버에 부담 증가, 쿠키 용량 적음
+  * LocalStorage  
+    장점 : 서버에 불필요한 데이터 저장안함, 용량이 큼  
+    단점 : HTML4만 지원되는 브라우저라면 못씀
+  * SessionStorage  
+    LocalStoarge와 동일하지만, 기능적 차이 존재.
+
+### Web Cache
+
+client 요청(html, image, js, css 등)에 대한 파일들의 임시 저장소.  
+다음에 같은 웹페이지 접속 시 저장된 파일을 사용하여 페이지 로딩 속도를 개선.
+
 ### GET / POST
 
 * GET  
@@ -88,6 +132,15 @@ Request Header에는 Content-Type에 해당 데이터 타입을 적어주어야 
 정말 ‘네이티브 앱’에 가까운 경험을 제공하는 웹을 목표로 한다.  
 PWA는 ‘서비스 작업자(service worker)’로 불리는 새로운 API를 활용해 웹앱의 중요한 부분을 캐싱하고, 사용자가 다음에 열 때 즉시 로딩하는 방식을 취한다. 그 덕분에 네트워크 환경이 좋지 않아도 빠르게 구동되며, 사용자에게 푸시 알림을 보내기도 한다.
 
+### ServiceWorker
+
+서비스 워커는 오프라인에서 웹페이지를 사용자에게 보여 줄 수 없을까 하는 고민에서 만들게 됨.  
+브라우저가 백그라운드에서 실행하는 스크립트로, 웹페이지와는 별개로 작동. 현재 푸시 알림 및 백그라운드 동기화와 같은 기능은 이미 제공되고 있음.  
+
+서비스 워커를 사용하여 연결을 가로채고 조작하고 응답을 필터링할 수 있음. 이를 위해 HTTPS로 제공되는 페이지에만 서비스 워커를 등록할 수 있음. 
+
+*참고 사이트 : [서비스 워커: 소개 | Web | Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/?hl=ko)
+
 ### WebSocket 설명, 쓰는 이유
 
 WebSocket이란, 서버와 클라이언트 간의 효율적인 양방향 통신 프로토콜.  
@@ -102,6 +155,34 @@ Ajax는 자바스크립트를 이용해서 비동기적으로 데이터를 교�
 
 ### PagePilling.js 페이지 넘어가는 효과 css 분석
 
+### Vue.js lifecycle
+![Vue Lifecycle](https://kr.vuejs.org/images/lifecycle.png)
+1. Creation - 컴포넌트 초기화 단계  
+  컴포넌트가 돔에 추가되기 전. 
+  * beforeCreate  
+    모든 훅 중에 가장 먼저 실행되는 훅.
+  * created  
+    data와 events가 활성화되어 접근 가능.
+2. Mounting - 돔(DOM) 삽입 단계  
+  초기 렌더링 직전에 컴포넌트에 직접 접근 가능.
+  * beforeMount  
+    템플릿과 렌더 함수들이 컴파일된 후에 첫 렌더링이 일어나기 직전에 실행.  
+  * mounted  
+    컴포넌트, 템플릿, 렌더링된 돔에 접근 가능.
+3. Updateting - Diff 및 재 렌더링 단계  
+  재 렌더링이 발생되면 실행.
+  * beforeUpdate  
+  컴포넌트의 데이터가 변하여 업데이트 사이클이 시작될 때 실행.
+  * updated  
+  컴포넌트의 데이터가 변하여 재 렌더링이 일어난 후에 실행.
+4. Destruction - 해체 단계  
+  * beforeDestroy  
+  뷰 인스턴스 제거(해체)되기 직전에 호출.
+  * destroyed  
+  해체된 후에 호출.
+
+*참고 사이트 : [Vue.js 2.0 라이프사이클 이해하기 – Witinweb – Medium](https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4)*
+
 ### Vue.js 데이터가 바뀌면 자동으로 렌더링 되는 방식
 
 모든 컴포넌트 인스턴스에는 해당 watcher 인스턴스가 있으며, 이 인스턴스는 컴포넌트가 종속적으로 렌더링되는 동안 **수정**된 모든 속성을 기록함.  
@@ -109,12 +190,19 @@ Ajax는 자바스크립트를 이용해서 비동기적으로 데이터를 교�
 ![vue data rendering](https://kr.vuejs.org/images/data.png)
 *참고 사이트 : [반응형에 대해 깊이 알아보기 — Vue.js](https://kr.vuejs.org/v2/guide/reactivity.html)*
 
+다른 방법 존재 --> 찾아보기
+
 ### css를 많이 받아오는데 빠르게 하기 위한 해결 방법
 Webpack 사용.
 
 ---
 
 ## 기타
+
+### HTML / HTML5
+
+HTML5는 차세대 웹 표준으로 확정되었으며, 기존 텍스트와 하이퍼링크만 표시하던 HTML이 멀티미디어 등 다양한 어플리케이션까지 표현,제공하도록 진화한 '웹프로그래밍 언어'.  
+오디오, 비디오, 그래픽 처리, 위치정보 제공 등 다양한 기능.
 
 ### Java와 Python의 Language 차이
 
@@ -150,7 +238,7 @@ Java는 컴파일 언어, Python은 스크립트 언어이다.
 
 ### Value Type / Reference Type
 
-* Value Tyel(값 형식)  
+* Value Type(값 형식)  
 값을 변수에 넣는 데이터 형식
 * Reaference Type(참조형식)  
 참조형식의 변수는 힙과 스택을 함께 이용.  

@@ -5,7 +5,7 @@ categories:
 tags: CS
 ---
 
-![디자인 패턴]()
+![디자인 패턴](https://sandeepdass003.files.wordpress.com/2018/02/patterns-design.jpg)
 
 ## Singleton Pattern (싱글톤 패턴)
 

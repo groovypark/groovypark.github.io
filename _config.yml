@@ -428,6 +428,9 @@ changyan:
 # Google Analytics
 #google_analytics:
 
+# Google Adsense
+google_adsense: ca-pub-6617938723159910
+
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:

@@ -7,8 +7,6 @@ tags: Flowchart
 
 ![draw.io](https://lh3.googleusercontent.com/-CzWSZjLvCvQ/AAAAAAAAAAI/AAAAAAAAABw/siCmLON6Nx8/w800-h800/photo.jpg)
 
-{% include /_includes/adscript.html %}
-
 # 플로우차트(Flowchart) 프로그램 - draw.io
 
 [https://www.draw.io/](https://www.draw.io/){: target="_blank" } 

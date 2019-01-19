@@ -23,7 +23,7 @@
     {% assign container_class = container_class | append: 'sidebar-position-' | append: site.sidebar.position %}
   {% endif %}
 
-  {% include ad.html %}
+  
   <div class="{{ container_class }} {{ page_class }} ">
     <div class="headband"></div>
 
@@ -31,6 +31,7 @@
       <div class="header-inner"> {% include _partials/header.html %} </div>
     </header>
 
+    {% include adscript.html %}
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
@@ -83,5 +84,6 @@
   {% include _third-party/mathjax.html %}
   {% include _third-party/scroll-cookie.html %}
   {% include _third-party/exturl.html %}
+  {% include ad.html %}
 </body>
 </html>

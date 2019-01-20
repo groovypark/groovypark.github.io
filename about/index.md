@@ -10,16 +10,7 @@ layout: page
 * Email : soobin950@gmail.com
 * Blog : [https://groovypark.github.io](https://groovypark.github.io)
 * GitHub : [https://github.com/groovypark](https://github.com/groovypark)
-* Introduction : 프론트엔드 개발에서 다양한 경험을 하고 싶습니다. 유저와 가장 가까이 맞닿아 있고, 감성적인 측면이 강한 부분이라고 생각합니다. 최근에는 React.js와 Vue.js에 관심을 가지고 있습니다. 학교 외부에서도 다양한 프로젝트를 진행하고 싶어서 디자이너, 프로그래머 연합동아리인 디프만 동아리에서 활동했습니다.
-
-# Education
-
-### 홍익대학교 세종캠퍼스 컴퓨터정보통신공학 (2015.03 ~ 2019.02 졸업예정)
-
-* 수강과목 : 소프트웨어공학, 웹프로그래밍, 데이터베이스, 데이터사이언스, 운영체제, 알고리즘 등
-* 전공평점 : 3.68 / 4.5
-* 전체평점 : 3.55 /4.5
-* 연구장학생 : UNC Lab에서 근무(2016 ~)
+* Introduction : 프론트엔드 개발에서 다양한 경험을 하고 싶습니다. 유저와 가장 가까이 맞닿아 있고, 감성적인 측면이 강한 부분이라고 생각합니다. 학교 외부에서도 다양한 프로젝트를 진행하고 싶어서 디자이너, 프로그래머 연합동아리인 디프만 동아리에서 활동했습니다.
 
 # Programming Experience
 
@@ -54,7 +45,12 @@ layout: page
 * Bootstarp, HTML5, CSS3로 연구실 홈페이지 개선
 * React.js를 활용하여 M2M기반 태양광 발전 관제시스템 프로젝트 등에 참여 중
 
-# Skills
 
-Proficient: HTML5, CSS3, JavaScript<br/>
-Familiar: Vue, Python, Java
+# Education
+
+### 홍익대학교 세종캠퍼스 컴퓨터정보통신공학 (2015.03 ~ 2019.02 졸업예정)
+
+* 수강과목 : 소프트웨어공학, 웹프로그래밍, 데이터베이스, 데이터사이언스, 운영체제, 알고리즘 등
+* 전공평점 : 3.70 / 4.5
+* 전체평점 : 3.56 / 4.50
+* 연구장학생 : UNC Lab에서 근무(2016 ~)

@@ -24,7 +24,7 @@
     {% assign container_class = container_class | append: 'sidebar-position-' | append: site.sidebar.position %}
   {% endif %}
 
-  
+  {% include adscript.html %}
   <div class="{{ container_class }} {{ page_class }} ">
     <div class="headband"></div>
 
@@ -36,9 +36,9 @@
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
-            
             {{ content }}
           </div>
+          {% include adscript.html %}
           {% include _third-party/duoshuo-hot-articles.html %}
           {% include _partials/comments.html %}
         </div>

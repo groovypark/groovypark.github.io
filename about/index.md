@@ -14,25 +14,34 @@ layout: page
 
 # Programming Experience
 
+### Facebook Hackathon (2019.04.27 ~ 29)
+
+* Ping - Global directory of areas where the demand of help of organizations is in real need
+* Facebook Messenger API를 이용한 챗봇 개발
+* https://devpost.com/software/ping-8cb3q9
+
+### Naver Clova nsml 인턴 (2019.02 ~ 2019.05)
+
+*  Resource(cpu, gpu) 모니터링 서비스 및 Admin 페이지
+    * React, Flask, peewee, mysql, docker-compose를 활용한 개발 및 배포
+* Jupyter Notebook에서 nsml extension, kernel 개발
+    * gpu를 사용하기 위해 remote kernel을 통해 프록시 서버로 모든 주피터 노트북 이벤트 핸들링
+    * extension을 통해 사용자가 gpu서버 선택하고, timeout 시간에 따라 자동으로 연결 끊김
+
+### 디프톤 해커톤 (2018.11.17 ~ 18)
+
+* 디프톡 - 단체 익명 채팅 서비스
+* WebSocket에서 서버에 데이터 전송 부분 담당
+* React.js를 이용하여 유저 리스트와 채팅 방 구현
+* Github - https://github.com/groovypark/deptalk
+
+
 ### 핸디즈 프론트엔드 인턴 (2018.01 ~ 2018.02)
 
 * 플로우 차트 설계
 * 핸디즈 메인 페이지 개발 [https://stay.handys.co.kr/](https://stay.handys.co.kr/)
 * 코드 리뷰
 * 구글 애널리틱스를 이용하여 실시간 이벤트 확인
-
-### 교내 프로젝트 (2017.09 ~ 2017.12)
-
-* 데이터베이스 수업에서 PHP, OracleDB를 활용하여 [Delivery Management System](http://cic.hongik.ac.kr/a_team/a_team7/index.php)를 개발<br/>
-총 4명의 팀원 중 각각 25%씩 역할 담당하였고, 인덱스 페이지 및 주문 페이지 개발
-* 안드로이드 프로그래밍 수업에서 SQLiteDB를 활용하여 라인그래프를 통해 자신의 건강상태를 체크하는 어플 개발, ImageView를 이용하여 룰렛 어플 개발 (2017-2)
-
-### 유니톤 (2017.07.28 ~ 30)
-
-* KOK-프로귀찮러를 위한 지출관리 시스템 - Microsoft Cognitive Service를 사용하여 사진을 찍으면 해당 사진의 키워드를 입력해주는 가계부 웹앱
-* Vue.js를 활용하여 카메라 접근, 로딩화면, 사진추가 부분 역할 담당
-* Frontend와 Backend 연결, 디바이스의 카메라 접근 해결 못함
-* 발표자료 [https://www.slideshare.net/JunyoungJung8/unithon-5th-kok](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok)
 
 ### 디프만 (2017.03 ~ 2017.12)
 

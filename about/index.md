@@ -10,9 +10,8 @@ layout: page
 * Email : soobin950@gmail.com
 * Blog : [https://groovypark.github.io](https://groovypark.github.io)
 * GitHub : [https://github.com/groovypark](https://github.com/groovypark)
-* Introduction : 프론트엔드 개발에서 다양한 경험을 하고 싶습니다. 유저와 가장 가까이 맞닿아 있고, 인터렉티브한 웹을 만드는 것에 관심이 있습니다. 또한, UX 개선과 새로운 기술에 대한 호기심이 있습니다.
+* Introduction : 유저와 가장 가까이 맞닿아 있는 프론트엔드 개발에서 다양한 경험을 하고 싶습니다. 인터렉티브한 웹을 만드는 것에 관심이 있고, UX 개선과 새로운 기술에 대한 호기심이 있습니다.  
   
-
 
 ---
 # Programming Experience

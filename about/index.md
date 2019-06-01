@@ -3,8 +3,8 @@ title: about
 layout: page
 ---
 
-# Profile
 ---
+# Profile
 ### 박수빈 (Park SooVin)
 
 * Email : soobin950@gmail.com
@@ -14,8 +14,8 @@ layout: page
   
 
 
-# Programming Experience
 ---
+# Programming Experience
 ## Facebook Hackathon (2019.04.27 ~ 29)
 
 * Ping - Global directory of areas where the demand of help of organizations is in real need
@@ -63,8 +63,8 @@ layout: page
   
 
 
-# Education
 ---
+# Education
 ## 홍익대학교 세종캠퍼스 컴퓨터정보통신공학 (2015.03 ~ 2019.02)
 
 * 수강과목 : 데이터베이스, 자료구조, 운영체제, 알고리즘 등

@@ -1,5 +1,5 @@
 ---
-title: 배열 리스트 장단점
+title: 배열(Array) 리스트(Linked List) 장단점
 description: 
 categories: 
 tags: Intern
@@ -21,6 +21,8 @@ tags: Intern
 ## LinkedList
 
 ![연결 리스트](https://t1.daumcdn.net/cfile/tistory/2351C835533F74C723)
+![이중 연결 리스트](https://t1.daumcdn.net/cfile/tistory/2368CD35533F74C91A)
+
 
 * 크기가 고정되어 있지 않다
 * 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억
@@ -29,25 +31,21 @@ tags: Intern
 * 참조를 위한 추가 메모리 할당이 필요
 
 
-![이중 연결 리스트](https://t1.daumcdn.net/cfile/tistory/2368CD35533F74C91A)
+* 단순 연결 리스트에서 사용하는 노드의 기본적인 구조
+  ```java
+  class Node {
 
+    private Object data;
+    private Node nextNode;
 
-단순 연결 리스트에서 사용하는 노드의 기본적인 구조
-
-```java
-class Node {
-
-   private Object data;
-   private Node nextNode;
-
-   Node(Object data){
-     
-         this.data = data;
-         this.nextNode = null;
-        
-   }
-}
-```
+    Node(Object data){
+      
+          this.data = data;
+          this.nextNode = null;
+          
+    }
+  }
+  ```
 
 ## 결론
 * 저장할 데이터의 최대 개수가 정해져 있고 리스트의 중간에 데이터를 삽입, 삭제하는 작업이 많지 않으며 인덱스를 이용한 빠른 검색이 필요할 경우에는 배열을 사용하는게 효율적

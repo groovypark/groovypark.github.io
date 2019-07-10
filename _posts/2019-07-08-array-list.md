@@ -2,7 +2,7 @@
 title: 배열(Array) 리스트(Linked List) 장단점
 description: 
 categories: 
-tags: Intern
+tags: CS
 ---
 
 ![배열 리스트 비교](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/1335/2885.png)

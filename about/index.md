@@ -33,7 +33,6 @@ layout: page
 * 디프톡 - 단체 익명 채팅 서비스
 * WebSocket에서 서버에 데이터 전송 부분 담당
 * React.js를 이용하여 유저 리스트와 채팅 방 구현
-* Github - [https://github.com/groovypark/deptalk](https://github.com/groovypark/deptalk)
 
 ### 서울 날씨 정보 (2018.09.04 ~ 24)
 

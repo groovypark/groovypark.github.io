@@ -21,7 +21,7 @@ layout: page
 * Facebook Messenger API를 이용한 챗봇 개발
 * [https://devpost.com/software/ping-8cb3q9](https://devpost.com/software/ping-8cb3q9)
 
-### Naver Clova nsml 인턴 (2019.02 ~ 2019.05)
+### Naver Clova NSML 인턴 (2019.02 ~ 2019.05)
 
 * Resource(cpu, gpu) 모니터링 서비스 및 Admin 페이지
     * React, Flask, peewee, mysql, docker-compose를 활용한 개발 및 배포

@@ -35,18 +35,10 @@ layout: page
 * React.js를 이용하여 유저 리스트와 채팅 방 구현
 * Github - [https://github.com/groovypark/deptalk](https://github.com/groovypark/deptalk)
 
-### Photo Cloud Service (2018.09.02 ~ 25)
-
-* PWA를 활용하여 사진을 찍고, 저장하는 서비스
-* Vuetify.js, Vue.js를 이용하여 개발
-* 반응형, Mobile App과 동일한 UX, HTTPS통신, Local Storage저장, Service Worker 동작
-* Demo - [https://github.com/groovypark/photo-cloud-service](https://github.com/groovypark/photo-cloud-service)
-
 ### 서울 날씨 정보 (2018.09.04 ~ 24)
 
 * 네이버 지도 API, 서울시 공공 API를 통해 현재 위치의 날씨 정보를 받아옴
 * Vuetify로 Mobile App과 같은 UX 제공
-* Demo - [https://pwa-weather-application.firebaseapp.com/](https://pwa-weather-application.firebaseapp.com/)
 
 ### 핸디즈 인턴 (2018.01 ~ 2018.02)
 

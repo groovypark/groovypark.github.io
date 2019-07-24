@@ -14,7 +14,8 @@ layout: page
 
 ---
 # Programming Experience
-### Facebook Hackathon (2019.04.27 ~ 29)
+
+### Facebook F8 Hackathon (2019.04.27 ~ 29)
 
 * Ping - Global directory of areas where the demand of help of organizations is in real need
 * Facebook Messenger API를 이용한 챗봇 개발

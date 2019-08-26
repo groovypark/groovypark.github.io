@@ -1,8 +1,8 @@
 ---
-title: 
+title: Git 여러 계정 설정(git config)
 description: 
 categories: 
-tags: git 여러 계정 설정
+tags: git
 ---
 
 ![Github](http://blog.weirdx.io/wp-content/uploads/2017/10/github.png)

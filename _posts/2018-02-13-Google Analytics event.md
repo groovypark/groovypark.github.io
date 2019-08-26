@@ -5,7 +5,7 @@ categories:
 tags: google
 ---
 
-![Google Analytics, Google Tag Manager](https://megalytic.com/blog/wp-content/uploads/2014/07/ga-gtm.png)
+![Google Analytics, Google Tag Manager](http://sungjunlee.com/content/images/2019/04/ga-gtm.png)
 
 # 구글 애널리틱스 이벤트 설정
 

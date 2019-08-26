@@ -5,7 +5,7 @@ categories:
 tags: Flowchart
 ---
 
-![draw.io](https://lh3.googleusercontent.com/-CzWSZjLvCvQ/AAAAAAAAAAI/AAAAAAAAABw/siCmLON6Nx8/w800-h800/photo.jpg)
+![draw.io](https://support.invisionapp.com/hc/article_attachments/360024164052/drawio-studio-app.png)
 
 # 플로우차트(Flowchart) 프로그램 - draw.io
 
@@ -24,4 +24,7 @@ draw.io를 검색하여 연결한다.
 
 ![Flowchart](/assets/images/draw.io-flowchart.jpg)
 
+---
+
+[구글 애널리틱스(Google Analytics), 구글 태그 매니저(Google Tag Manager) 이벤트 설정](https://groovypark.github.io/2018/02/13/Google-Analytics-event/)  
 [다른 게시물 더 보기](https://groovypark.github.io/){: .btn.btn-default target="_blank" }

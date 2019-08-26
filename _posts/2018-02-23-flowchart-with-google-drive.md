@@ -2,7 +2,7 @@
 title: 구글 드라이브에서 플로우차트(Flowchart) 그리기
 description: 
 categories: 
-tags: Flowchart
+tags: Flowchart Google
 ---
 
 ![draw.io](https://support.invisionapp.com/hc/article_attachments/360024164052/drawio-studio-app.png)

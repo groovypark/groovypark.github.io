@@ -2,7 +2,7 @@
 title:  구글 애널리틱스(Google Analytics), 구글 태그 매니저(Google Tag Manager) 이벤트 설정
 description: 
 categories: 
-tags: google
+tags: Google
 ---
 
 ![Google Analytics, Google Tag Manager](http://sungjunlee.com/content/images/2019/04/ga-gtm.png)

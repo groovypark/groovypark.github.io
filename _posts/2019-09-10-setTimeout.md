@@ -43,10 +43,18 @@ for (var i = 0; i < 10; i++) {
     },1000);
     ```
 
-## 해결 - 1초뒤 숫자 증가
+## 해결 - 1초뒤 for문 실행
 
-1. closure 사용
-    setTimeout의  i를
+1. setTimeout안에서 for문 실행
+```javascript
+setTimeout(function(){
+	for (var i=0; i < 10; i++) {
+        console.log(i);
+    }
+}, 1000);
+```
+
+2. closure 사용 - for문의  i를 setTimeout에 즉시실행
     ```javascript
     for (var i = 0; i < 10; i++) {
         setTimeout(function(index) {
@@ -57,7 +65,7 @@ for (var i = 0; i < 10; i++) {
     }
     ```
 
-2. 즉시실행함수
+3. 즉시실행함수 - for문의  i를 함수에 즉시실행
     ```javascript
     for (var i = 0; i < 10; i++) {
         (function(index) {
@@ -68,7 +76,7 @@ for (var i = 0; i < 10; i++) {
     }
     ```
 
-3. 블록
+4. 블록
     ```javscript
     for (let i = 0; i < 10; i++) {
     setTimeout(function() {

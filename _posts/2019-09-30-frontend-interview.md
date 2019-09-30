@@ -2,7 +2,7 @@
 title: 프론트엔드 면접 질문(Frontend Job Interview Questions)
 description: 
 categories: 
-tags: Frontend, JavaScript
+tags: Frontend JavaScript
 ---
 
 ![JavaScript](https://www.zuaneducation.com/blog/wp-content/uploads/2018/09/Interview-Questions-and-Answers.jpg)

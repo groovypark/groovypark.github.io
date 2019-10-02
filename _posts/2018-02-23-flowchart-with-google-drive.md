@@ -9,18 +9,19 @@ tags: Flowchart Google
 
 # 플로우차트(Flowchart) 프로그램 - draw.io
 
-[https://www.draw.io/](https://www.draw.io/){: target="_blank" } 
+[https://www.draw.io/](https://www.draw.io/){: target="_blank" }  
 draw.io Diagram을 이용하여 구글 드라이브에서 플로우차트를 그릴 수 있다.
 
 ![구글드라이브 새로만들기 버튼](/assets/images/draw.io1.png)
 
-새로만들기 버튼에서 연결할 앱 더보기를 누른뒤,
+새로만들기 > 더보기 > +연결할 앱 더보기  
+순서대로 누르고,
 
 ![연결할 앱 더보기에서 draw.io 검색](/assets/images/draw.io2.png)
 
 draw.io를 검색하여 연결한다.
 
-다음은 내가 인턴을 하면서 작성했던 플로우차트이다.
+다음은 내가 인턴을 하면서 작성했던 회원 가입/로그인 관련 플로우차트이다.
 
 ![Flowchart](/assets/images/draw.io-flowchart.jpg)
 

@@ -20,7 +20,7 @@ draw.io Diagram을 이용하여 구글 드라이브에서 플로우차트를 그
 
 draw.io를 검색하여 연결한다.
 
-다음은 내가 핸디즈에서 인턴하면서 작성했던 플로우차트이다.
+다음은 내가 인턴을 하면서 작성했던 플로우차트이다.
 
 ![Flowchart](/assets/images/draw.io-flowchart.jpg)
 
@@ -36,3 +36,7 @@ draw.io를 검색하여 연결한다.
           enable_page_level_ads: true
      });
 </script>
+
+---
+
+재미있게 읽어주셨다면 광고 한 번씩 눌러주세요😊

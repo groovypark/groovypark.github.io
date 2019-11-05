@@ -12,14 +12,20 @@ tags: Flowchart Google
 [https://www.draw.io/](https://www.draw.io/){: target="_blank" }  
 draw.io Diagram을 이용하여 구글 드라이브에서 플로우차트를 그릴 수 있다.
 
-![구글드라이브 새로만들기 버튼](/assets/images/draw.io1.png)
+1. 새로만들기 > 더보기 > +연결할 앱 더보기  순서대로 누르고,  
+![구글드라이브 새로만들기 버튼](/assets/images/draw.io1.png)  
 
-새로만들기 > 더보기 > +연결할 앱 더보기  
-순서대로 누르고,
 
-![연결할 앱 더보기에서 draw.io 검색](/assets/images/draw.io2.png)
+2. draw.io를 검색하여 연결한다.  
+![연결할 앱 더보기에서 draw.io 검색](/assets/images/draw.io2.png)  
 
-draw.io를 검색하여 연결한다.
+
+3. Flowcharts를 선택하면 템플릿도 선택할 수 있다.  
+여러가지 템플릿이 존재하기 때문에 참고해서 사용하기 좋은 것 같다.  
+![Flowcharts 템플릿](/assets/images/draw.io3.png)  
+
+4. 구글 계정 로그인 하여 사용한다.    
+![로그인](/assets/images/draw.io4.png)  
 
 다음은 내가 인턴을 하면서 작성했던 회원 가입/로그인 관련 플로우차트이다.
 
@@ -29,5 +35,4 @@ draw.io를 검색하여 연결한다.
 
 재미있게 읽어주셨다면 광고 한 번씩 눌러주세요😊
 
-[구글 애널리틱스(Google Analytics), 구글 태그 매니저(Google Tag Manager) 이벤트 설정](https://groovypark.github.io/2018/02/13/Google-Analytics-event/)  
 [다른 게시물 더 보기](https://groovypark.github.io/){: .btn.btn-default target="_blank" }

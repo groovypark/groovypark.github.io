@@ -47,14 +47,14 @@ modalBtn.onclick = function(event) {
 문서 백 번보는 것보다 이거 한번 처음부터 끝까지 따라해보면 완전 이해될 것이다.👍🏼  
 
 
-1. **구글 애널리틱스와 연결하기**  
+**1. 구글 애널리틱스와 연결하기**  
   구글애널리틱스와 연결하기 위해서는 태그를 생성하여 아래 사진과 같이 설정한 다음,  
   Tracking ID에 구글애널리틱스 추적 ID를 넣으면 된다.(ex. UA-XXXXXXXXX-1)  
   추적 ID는 구글애널리틱스 관리에서 추적정보에 있는 추적 코드로 들어가면 나와있다.   
   ![Google Analytics](/assets/images/tag-manager1.png)
 
 
-2. **이벤트 설정**  
+**2. 이벤트 설정**  
   이제 이벤트를 설정하기 위해서 또다른 태그를 만든다.  
   ![Google Analytics](/assets/images/tag-manager2.png)
   아까 위에서 보았던 이 코드는 위 사진에 있는 카테고리, Action에 들어가는 부분이다.  
@@ -65,11 +65,11 @@ modalBtn.onclick = function(event) {
       };                      // '카테고리이름', '액션이름', '라벨이름'
     ```
 
-3. **Variables**  
+**3. Variables**  
   위와 같이 설정을 하는데, Track Type에 Event를 등록하기 위해서는 아래와 같이 Variables에서 Event를 추가해줘야 한다.  
   ![Google Analytics](/assets/images/tag-manager3.png)
 
-4. **Triggers**  
+**4. Triggers**  
   다시 아까 위에있는 태그 추가 화면에서 Triggering을 등록하기 위해서 Triggers를 새로 만들어야 한다.  
   나는 필터를 id값으로 확인하였다.  
   따라서 해당하는 아이디 값이 클릭되었을 때 이벤트가 발생하는 것이다.  

@@ -85,7 +85,7 @@ modalBtn.onclick = function(event) {
 ## 구글 커뮤니티
 
 
-[Solved:  Google Analytics Event Tracking not working - The Google Advertiser Community - 1636048](https://www.en.advertisercommunity.com/t5/forums/v3_1/forumtopicpage/board-id/Code_Implementation/message-id/11851#M11849)
+[Solved:  Google Analytics Event Tracking not working - The Google Advertiser Community - 1636048](https://www.en.advertisercommunity.com/t5/forums/v3_1/forumtopicpage/board-id/Code_Implementation/message-id/11851#M11849){:target="_blank"}
 
 문제는 결국 ga -> gtag였다...
 
@@ -93,4 +93,4 @@ modalBtn.onclick = function(event) {
 
 
 목표설정을 하는 것이 좀 이해가 어려웠는데 데모계정에 기본적인 설정들이 되어있어서 참고하고 이해하는데 도움이 되었다.  
-[데모 계정](https://analytics.google.com/analytics/web/?utm_source=demoaccount&utm_medium=demoaccount&utm_campaign=demoaccount#report/visitors-overview/a54516992w87479473p92320289/)
+[데모 계정](https://analytics.google.com/analytics/web/?utm_source=demoaccount&utm_medium=demoaccount&utm_campaign=demoaccount#report/visitors-overview/a54516992w87479473p92320289/){:target="_blank"}

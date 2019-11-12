@@ -35,4 +35,4 @@ draw.io Diagram을 이용하여 구글 드라이브에서 플로우차트를 그
 
 재미있게 읽어주셨다면 광고 한 번씩 눌러주세요😊
 
-[다른 게시물 더 보기](https://groovypark.github.io/)
+[다른 게시물 더 보기](https://groovypark.github.io/){: .btn}

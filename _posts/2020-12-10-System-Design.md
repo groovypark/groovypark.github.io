@@ -1,5 +1,5 @@
 ---
-title: 시스템 디자인(System Design)
+title: 시스템 디자인 인터뷰(System Design Interview)
 description: 
 categories: 
 tags: CS

@@ -8,7 +8,7 @@ tags: CS
 ![System Design](https://www.cronj.com/blog/wp-content/uploads/Artboard-10.png)
 
 # 시스템 디자인
-시스템 디자인이란, 말 그대로 주어진 서비스의 시스템을 어떻게 설계할 것인지 물어보는 질문이다. 너무 세부적으로 들어갈 필요는 없지만, 주어진 시스템이 대규모의 트래픽을 문제 없이 감당하기 위해서는 시스템의 전반적인 구조를 어떻게 잡아야 할지 명확한 근거를 가지고 이야기할 수 있어야 한다.
+시스템 디자인이란, 말 그대로 주어진 서비스의 시스템을 어떻게 설계할 것인지 물어보는 질문이다. 너무 세부적으로 들어갈 필요는 없지만, 주어진 시스템이 대규모의 트래픽을 문제 없이 감당하기 위해서는 시스템의 전반적인 구조를 어떻게 잡아야 할지 명확한 근거를 가지고 말 할 수 있어야 한다.
 
 ### 시스템 디자인 인터뷰 예시
 
@@ -60,12 +60,10 @@ tags: CS
 
 ---
 
-찾아보니 주로 해외 취업 시 많이 하는 질문인 것 같음. hiredintech 여기 사이트 강추!!
+찾아보니 주로 해외 취업 시 많이 하는 질문인 것 같음.  hiredintech 여기 사이트 강추!!
 
-**참고**  
+**참고**
 
-[https://www.hiredintech.com/classrooms/system-design/lesson/52](https://www.hiredintech.com/classrooms/system-design/lesson/52)
-
-[https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8](https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8)
-
-[https://jchun.dev/2020/international-careers-07](https://jchun.dev/2020/international-careers-07)
+[https://www.hiredintech.com/classrooms/system-design/lesson/52](https://www.hiredintech.com/classrooms/system-design/lesson/52)  
+[https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8](https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8)  
+[https://jchun.dev/2020/international-careers-07](https://jchun.dev/2020/international-careers-07)  

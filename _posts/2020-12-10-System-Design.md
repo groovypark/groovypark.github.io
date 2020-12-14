@@ -64,8 +64,8 @@ tags: CS
 
 **참고**  
 
-[https://www.hiredintech.com/classrooms/system-design/lesson/52](https://www.hiredintech.com/classrooms/system-design/lesson/52)  
+[https://www.hiredintech.com/classrooms/system-design/lesson/52](https://www.hiredintech.com/classrooms/system-design/lesson/52)
 
-[https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8](https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8)  
+[https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8](https://modus.medium.com/what-the-is-systems-design-e005c1e9fef8)
 
-[https://jchun.dev/2020/international-careers-07](https://jchun.dev/2020/international-careers-07)  
+[https://jchun.dev/2020/international-careers-07](https://jchun.dev/2020/international-careers-07)

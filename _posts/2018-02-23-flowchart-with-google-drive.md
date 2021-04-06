@@ -27,12 +27,8 @@ draw.io Diagram을 이용하여 구글 드라이브에서 플로우차트를 그
 4. 구글 계정 로그인 하여 사용한다.    
 ![로그인](/assets/images/draw.io4.png)  
 
-다음은 내가 인턴을 하면서 작성했던 회원 가입/로그인 관련 플로우차트이다.
-
-![Flowchart](/assets/images/draw.io-flowchart.jpg)
-
 ---
 
-재미있게 읽어주셨다면 광고 한 번씩 눌러주세요😊
+도움이 되셨다면 광고 한 번씩 눌러주세요😊
 
 [다른 게시물 더 보기](https://groovypark.github.io/){: .btn}

@@ -16,8 +16,7 @@ tags: git
 
 ## 저장소별(로컬) 계정 설정
 
-저장소마다 다른 계정으로 로그인하고 싶을 때!!
-회사계정과 동시에 써야 할 경우ㅠㅠ 잘못 커밋 올라 갈 때가 있었다.
+저장소마다 다른 계정으로 로그인하고 싶을 때
 
 `git config --local user.name "user"`
 `git config --local user.email "user@email.com"`
